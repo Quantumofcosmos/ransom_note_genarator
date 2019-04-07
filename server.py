@@ -13,10 +13,10 @@ def generator():
     print(str(data['msg']))
     try:
         os.remove("./static/letter.jpeg")
-        print("in remove")
+        print("in remove.")
     except Exception as e:
         print(str(e))
     assembly.main(str(data['msg']))
-    return "1" 
-
-app.run(debug=True)
+    return "1"
+    
+app.run(debug=True,host= '0.0.0.0')

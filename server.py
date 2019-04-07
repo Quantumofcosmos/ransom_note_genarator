@@ -1,11 +1,10 @@
 from flask import Flask,request
 app = Flask(__name__)
-import assembly,os,subprocess
+import assembly,os
 
 
 @app.route('/')
 def hello_world():
-   print(subprocess.Popen('/usr/local/bin/fc-list', stdout=subprocess.PIPE ).communicate()[0])
    return app.send_static_file('index.html')
 
 @app.route('/generate',methods=['POST'])

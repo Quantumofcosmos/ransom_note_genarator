@@ -38,7 +38,8 @@ def main(total):
     hgtmx=0
     a4im = Image.new('RGB', (595, 700), (255, 255, 255))
     for each in total:
-        font=ImageFont.truetype(choice(['trebucbd.ttf','comicbd.ttf','comic.ttf','VeraMoBI.ttf','Times_New_Roman.ttf','FreeSans.ttf','Verdana_Italic.ttf']), randint(22,32))
+        font=ImageFont.truetype(choice(['Times_New_Roman.ttf']), randint(22,32))
+        #'trebucbd.ttf','comicbd.ttf','comic.ttf','VeraMoBI.ttf','Times_New_Roman.ttf','FreeSans.ttf','Verdana_Italic.ttf'
         font_size = sizer(font)
         wdth=font_size[0]+5
         hgt=font_size[1]+2

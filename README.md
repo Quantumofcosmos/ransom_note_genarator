@@ -28,6 +28,7 @@ Application written in python to make a note look like it is cut from a newspape
 ****
 ## How to run this locally
 **Requirements:**  Python should be installed in your local machine
+
 **Steps to run:**
 * Clone this git repository to your local file system.
 * Open terminal inside the project folder.

@@ -23,6 +23,7 @@ Application written in python to make a note look like it is cut from a newspape
 * Play with alphabet case
 * Word wrapping(Current line break is based on the space available on page not based on the word being processed)
 * Take user inputs to randomize above features.
+* (May be) Non stranded shaped for alphabet background 
 * (May be) Live loading of image(Currently reloads after you submit)
 * (May be) randomize font color which is currently fixed to black.
 ****

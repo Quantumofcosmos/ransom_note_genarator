@@ -36,3 +36,8 @@ Application written in python to make a note look like it is cut from a newspape
 * run command `pip install requirements.txt`
 * After the requirements are installed run `python server.py`
 * The application can be accessed via any web browser in your system at *http://127.0.0.1:5000/*
+
+## [Better explaination at my Blog](https://quantumofcosmos.github.io/2019-04-07-Ransom-Note-Genarator/)
+
+# Disclaimer:
+This project was undertaken to improve my understanding of python and it should not be misused in anyway.
